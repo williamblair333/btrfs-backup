@@ -4,7 +4,7 @@ source /backup/btrfs-backup/date-time.config
 source /backup/btrfs-backup/backup_server.config
 
 #get just the name for our target and insert into the backup tgz name
-#folder_target='config_tc-vmh-01_container_simple-help.conf'
+#folder_target='config_server_01_container_01.conf'
 folder_target=$1
 one=${folder_target#*_}
 two=${one#*_}
